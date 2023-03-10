@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600&display=swap');
+
+@import './font.scss';
+@import './color.scss';
+@import './transition.scss';
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    /* Remove scrollbar space */
+    background: #ececec;
+    /* Optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #abacb1;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 !important;
+}
+
+h1 {
+    font-size: 80px !important;
+}
+
+h2 {
+    font-size: 55px !important;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.text-paragraph {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-grey {
+    color: #8d8f9a;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-100 {
+    height: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    opacity: 0.8;
+}
+
+.btn-arrow {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #d6d6d6;
+    --bs-btn-bg: #808080;
+    --bs-btn-border-color: #808080;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: #b7b0b0;
+    --bs-btn-hover-bg: #b7b0b0;
+    --bs-btn-hover-border-color: #b7b0b0;
+    --bs-btn-focus-shadow-rgb: #b7b0b0;
+    --bs-btn-active-color: #b7b0b0;
+    --bs-btn-active-bg: #b7b0b0;
+    --bs-btn-active-border-color: #b7b0b0;
+    --bs-btn-disabled-color: #c4c4c4;
+    --bs-btn-disabled-bg: #c4c4c4;
+    --bs-btn-disabled-border-color: #c4c4c4;
+}
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 65px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+    
+    h3 {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h1 {
+        font-size: 40px !important;
+    }
+    
+    h2 {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    .text-paragraph {
+        font-size: 13px !important;
+    }
+}

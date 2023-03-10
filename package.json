@@ -1,0 +1,43 @@
+{
+    "name": "tcinew",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@types/node": "^18.8.0",
+        "aos": "^2.3.4",
+        "axios": "^1.1.3",
+        "bootstrap": "^5.2.2",
+        "core-js": "^3.8.3",
+        "element-plus": "^2.2.17",
+        "gsap": "^3.11.3",
+        "hammerjs": "^2.0.8",
+        "jquery": "^3.6.1",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "vue": "^3.2.13",
+        "vue-axios": "^3.5.0",
+        "vue-responsive-video-background-player": "^2.3.1",
+        "vue-router": "^4.1.5",
+        "vue-videobg": "^2.0.0",
+        "vue3-burger-menu": "^1.1.1",
+        "vue3-carousel": "^0.2.11"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "less": "^4.1.3",
+        "less-loader": "^11.1.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead",
+        "not ie 11"
+    ]
+}
