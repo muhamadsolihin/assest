@@ -1,16 +1,13 @@
 <template>
 	<!-- <MenuComponent :theme="'dark'" @goMenu="scrollToTop" /> -->
 	<div id="assessment">
-	  <HeroSection />
-	  <list-movie />
-	  <!-- <page-list /> -->
+	  <page-list />
 	</div>
   </template>
   
   <script setup>
-  import MenuComponent from "@/components/MenuComponent.vue";
-  import HeroSection from "./components/Home.vue";
-  import ListMovie from "./components/listMovie.vue"
+  import PageList from "./components/PageList.vue"
+
   
   const scrollToTop = () => {
 	window.scrollTo(0, 0);

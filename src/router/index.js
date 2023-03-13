@@ -6,16 +6,16 @@ const router = createRouter({
     {
       path: "/",
       name: "homepage",
-      component: () => import("../views/homepage/index.vue"),
+      component: () => import("../views/test/index.vue"),
       props: route => ({
         form_success: route.params.form_success,
       })
       
     },
     {
-      path: "/who-we-are",
-      name: "who-we-are",
-      component: () => import("../views/who-we-are/index.vue"),
+      path: "/Page-List",
+      name: "Page-list",
+      component: () => import("../views/Pages/index.vue"),
     },
     {
       path: "/our-work",
@@ -66,9 +66,9 @@ const router = createRouter({
       component: () => import("../views/jobs/index.vue"),
     },
     {
-      path: "/test2",
-      name: "test2",
-      component: () => import("../views/test/test2.vue"),
+      path: "/test",
+      name: "test",
+      component: () => import("../views/test/index.vue"),
     },
   ],
 });
