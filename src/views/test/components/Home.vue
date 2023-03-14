@@ -53,9 +53,6 @@
 
 <script setup>
 import { ref } from "vue";
-
-import BorderContainer from "@/components/BorderContainer.vue";
-
 const posX = ref(0);
 const addPos = () => {
   posX.value += 300;

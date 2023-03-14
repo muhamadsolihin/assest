@@ -1,5 +1,4 @@
 <template>
-	<!-- <MenuComponent :theme="'dark'" @goMenu="scrollToTop" /> -->
 	<div id="assessment">
 	  <HeroSection />
 	  <list-movie />
@@ -8,7 +7,6 @@
   </template>
   
   <script setup>
-  import MenuComponent from "@/components/MenuComponent.vue";
   import HeroSection from "./components/Home.vue";
   import ListMovie from "./components/listMovie.vue"
   
